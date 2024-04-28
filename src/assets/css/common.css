@@ -63,6 +63,8 @@ body {
     font-size: 17px;
     color: #fff;
     text-align: center;
+    height: 60px;
+    background-color: #efeff4;
 }
 
 .app-header.header-hide {

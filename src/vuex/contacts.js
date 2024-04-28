@@ -18,7 +18,7 @@ const contacts = [{ //昵称备注都有的朋友
         "headerUrl": "/images/header/header01.png",
         "nickname": "阿荡",
         "sex": 1,
-        "remark": "阿荡",
+        "remark": "天青",
         "signature": "填坑小能手",
         "telphone": 18896586152,
         "album": [{
@@ -177,7 +177,7 @@ const contacts = [{ //昵称备注都有的朋友
         "headerUrl": "/images/header/sunquan.jpg",
         "nickname": "孙权",
         "sex": 1,
-        "remark": "孙权",
+        "remark": "司南",
         "signature": "容我三思",
         "telphone": 18896586152,
         "album": [{

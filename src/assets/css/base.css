@@ -170,6 +170,8 @@ input {
 
 .center {
     text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
 }
 
 .clearfix:before,

@@ -13,7 +13,8 @@
                 <i class="new-msg-dot" v-show="!read&&item.quiet"></i>
                 <!--如果是私聊，只显示一个头像； 如果是群聊，则显示多个头像，flex 控制样式-->
                 <div class="header" :class="[item.type=='group'?'multi-header':'']">
-                    <img v-for="(userInfo,index) in item.user" :key="index" :src="userInfo.headerUrl">
+                    <!-- <img v-for="(userInfo,index) in item.user" :key="index" :src="userInfo.headerUrl"> -->
+                    <img :src="item.user[0].headerUrl">
                 </div>
             </div>
             <div class="desc-box">

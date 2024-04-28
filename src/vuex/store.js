@@ -34,25 +34,25 @@ const state = {
                 "msg": [{ //对话框的聊天记录 新消息 push 进
                     "text": "长按这些白色框消息，唤醒消息操作菜单，长按这些白色框消息，唤醒消息操作菜单",
                     "date": 1488117964495,
-                    "name": "阿荡",
+                    "name": "",
                     "headerUrl": "/images/header/header01.png"
                 }, {
                     "text": '点击空白处，操作菜单消失',
                     "date": 1488117964495,
-                    "name": "阿荡",
+                    "name": "",
                     "headerUrl": "/images/header/header01.png"
                 }, {
-                    "text": '来呀 快活啊',
+                    "text": '如何了',
                     "date": 1488117964495,
-                    "name": "阿荡",
+                    "name": "",
                     "headerUrl": "/images/header/header01.png"
-                }],
+                },],
                 "user": [contact.getUserInfo('wxid_zhaohd')] // 此消息的用户数组 长度为1则为私聊 长度大于1则为群聊
             },
             {
                 "mid": 2,
                 "type": "group",
-                "group_name": "收购万达讨论群",
+                "group_name": "取号的基本原理",
                 "group_qrCode": "",
                 "read": false,
                 "newMsgCount": 1,
@@ -71,7 +71,7 @@ const state = {
                     {
                         "text": '我试一试',
                         "date": 1488117964495,
-                        "name": "夜华",
+                        "name": "天青",
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
@@ -80,77 +80,173 @@ const state = {
             {
                 "mid": 3,
                 "type": "group",
-                "group_name": "收购淘宝讨论群",
+                "group_name": "【星空摄影与后期】3群",
                 "group_qrCode": "",
                 "read": true,
                 "newMsgCount": 1,
                 "quiet": true,
                 "msg": [{
-                    "text": '冒个泡',
+                    "text": '这个角度不错',
                     "date": 1488117964495,
-                    "name": "诸葛亮",
+                    "name": "驴大爷",
                     "headerUrl": "/images/header/zhugeliang.jpg"
                 }],
                 "user": [contact.getUserInfo('wxid_zhenji'), contact.getUserInfo('wxid_zhugeliang'), contact.getUserInfo('wxid_zhaohd')]
             },
             {
-                "mid": 4,
-                "type": "friend",
-                "group_name": "",
+                "mid": 2,
+                "type": "group",
+                "group_name": "小银子-魔都分银(卿)",
                 "group_qrCode": "",
                 "read": false,
-                "newMsgCount": 4,
-                "quiet": false,
-                "msg": [{
-                    "text": "长按消息，唤醒消息操作菜单",
-                    "date": 1488117964495,
-                    "name": "孙权",
-                    "headerUrl": "/images/header/sunquan.jpg"
-                }, {
-                    "text": '点击空白处，操作菜单消失',
-                    "date": 1488117964495,
-                    "name": "孙权",
-                    "headerUrl": "/images/header/sunquan.jpg"
-                }, {
-                    "text": '容我三思',
-                    "date": 1488117964495,
-                    "name": "孙权",
-                    "headerUrl": "/images/header/sunquan.jpg"
-                }],
-                "user": [contact.getUserInfo('wxid_sunquan')]
-            },
-            {
-                "mid": 5,
-                "type": "friend",
-                "group_name": "",
-                "group_qrCode": "",
-                "read": false,
-                "newMsgCount": 4,
-                "quiet": false,
-                "msg": [{
-                    "text": '夫君,身体要紧~ ',
-                    "date": 1488117964495,
-                    "name": "孙尚香",
-                    "headerUrl": "/images/header/sunshangxiang.jpg"
-                }],
-                "user": [contact.getUserInfo('wxid_sunshangxiang')]
-            },
-            {
-                "mid": 6,
-                "type": "friend",
-                "group_name": "",
-                "group_qrCode": "",
-                "read": false,
-                "newMsgCount": 4,
+                "newMsgCount": 1,
                 "quiet": true,
-                "msg": [{
-                    "text": '三姓家奴！ ',
-                    "date": 1488117964495,
-                    "name": "关羽",
-                    "headerUrl": "/images/header/guangyu.jpg"
-                }],
-                "user": [contact.getUserInfo('wxid_guangyu')]
-            }
+                "msg": [
+                    {
+                        "text": '我试一试',
+                        "date": 1488117964495,
+                        "name": "天青",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhenji'), contact.getUserInfo('wxid_zhugeliang'), contact.getUserInfo('wxid_zhaohd')]
+            },            {
+                "mid": 2,
+                "type": "group",
+                "group_name": "喵喵喵",
+                "group_qrCode": "",
+                "read": false,
+                "newMsgCount": 1,
+                "quiet": true,
+                "msg": [
+                    {
+                        "text": '[动画表情]',
+                        "date": 1488117964495,
+                        "name": "悲苦",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+            },            {
+                "mid": 2,
+                "type": "group",
+                "group_name": "专家深空之旅",
+                "group_qrCode": "",
+                "read": false,
+                "newMsgCount": 1,
+                "quiet": true,
+                "msg": [
+                    {
+                        "text": '我试一试',
+                        "date": 1488117964495,
+                        "name": "天青",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+            },            {
+                "mid": 2,
+                "type": "group",
+                "group_name": "极东摄 星空全球群 二群",
+                "group_qrCode": "",
+                "read": false,
+                "newMsgCount": 1,
+                "quiet": true,
+                "msg": [
+                    {
+                        "text": '我试一试',
+                        "date": 1488117964495,
+                        "name": "天青",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+            },            {
+                "mid": 2,
+                "type": "group",
+                "group_name": "猫吉屋摄影CLUB(14群)",
+                "group_qrCode": "",
+                "read": false,
+                "newMsgCount": 1,
+                "quiet": true,
+                "msg": [
+                    {
+                        "text": '我试一试',
+                        "date": 1488117964495,
+                        "name": "天青",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+            },            {
+                "mid": 2,
+                "type": "group",
+                "group_name": "折叠的群聊",
+                "group_qrCode": "",
+                "read": false,
+                "newMsgCount": 1,
+                "quiet": true,
+                "msg": [
+                    {
+                        "text": '我试一试',
+                        "date": 1488117964495,
+                        "name": "天青",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+            },            {
+                "mid": 2,
+                "type": "group",
+                "group_name": "文件传输助手",
+                "group_qrCode": "",
+                "read": false,
+                "newMsgCount": 1,
+                "quiet": true,
+                "msg": [
+                    {
+                        "text": '我试一试',
+                        "date": 1488117964495,
+                        "name": "天青",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+            },            {
+                "mid": 2,
+                "type": "group",
+                "group_name": "废片大队",
+                "group_qrCode": "",
+                "read": false,
+                "newMsgCount": 1,
+                "quiet": true,
+                "msg": [
+                    {
+                        "text": '我试一试',
+                        "date": 1488117964495,
+                        "name": "天青",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+            },            {
+                "mid": 2,
+                "type": "group",
+                "group_name": "大学生学习交流中心",
+                "group_qrCode": "",
+                "read": false,
+                "newMsgCount": 1,
+                "quiet": true,
+                "msg": [
+                    {
+                        "text": '我试一试',
+                        "date": 1488117964495,
+                        "name": "天青",
+                        "headerUrl": "/images/header/yehua.jpg"
+                    }
+                ],
+                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+            },
         ]
     }
 }
