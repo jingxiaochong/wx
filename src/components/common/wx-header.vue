@@ -23,7 +23,7 @@
           <div>添加朋友</div>
         </router-link>
         <li> <span class="iconfont icon-tips-saoyisao"></span>
-          <div>扫一扫</div>
+          <div @click="scan">扫一扫</div>
         </li>
         <li> <span class="iconfont icon-tips-fukuan"></span>
           <div>收付款</div>
@@ -57,6 +57,9 @@
                 this.$router.go(-1)
                     //保证返回操作后正确显示页面名称
                     // this.$store.commit("setPageName", this.$store.state.backPageName)
+            },
+            scan(){
+              this.$router.push('/scan')
             }
         }
     }

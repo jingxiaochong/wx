@@ -153,6 +153,12 @@ const routes = [{
         components: {
             "subPage": resolve => require(["../components/settings/common/language.vue"], resolve)
         }
+    },
+    {
+        path:'/scan',
+        components: {
+            "subPage": resolve => require(["../components/wechat/scan.vue"], resolve)
+        }
     }
 
 ]
