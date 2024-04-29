@@ -15,7 +15,7 @@
 const contacts = [{ //昵称备注都有的朋友
         "wxid": "wxid_zhaohd",
         "initial": 'z',
-        "headerUrl": "/images/header/header01.png",
+        "headerUrl": "/images/header/1.png",
         "nickname": "阿荡",
         "sex": 1,
         "remark": "天青",
@@ -38,7 +38,7 @@ const contacts = [{ //昵称备注都有的朋友
         "nickname": "白浅",
         "sex": 0,
         "remark": "",
-        "signature": "青丘女帝，天族天妃",
+        "signature": "",
         "telphone": 18896586152,
         "album": [{
             imgSrc: "/images/album/baiqian/baiqian01.jpeg",
@@ -216,6 +216,229 @@ const contacts = [{ //昵称备注都有的朋友
         "wxid": "wxid_zhenji",
         "initial": 'z',
         "headerUrl": "/images/header/zhenji.jpg",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },
+    {
+        "wxid": "0",
+        "initial": 'z',
+        "headerUrl": "/images/header/0.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },{
+        "wxid": "1",
+        "initial": 'z',
+        "headerUrl": "/images/header/12.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },
+    {
+        "wxid": "2",
+        "initial": 'z',
+        "headerUrl": "/images/header/2.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },
+    {
+        "wxid": "3",
+        "initial": 'z',
+        "headerUrl": "/images/header/3.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/4.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },{
+        "wxid": "4",
+        "initial": 'z',
+        "headerUrl": "/images/header/4.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },{
+        "wxid": "5",
+        "initial": 'z',
+        "headerUrl": "/images/header/5.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },{
+        "wxid": "6",
+        "initial": 'z',
+        "headerUrl": "/images/header/6.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },{
+        "wxid": "7",
+        "initial": 'z',
+        "headerUrl": "/images/header/7.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },{
+        "wxid": "8",
+        "initial": 'z',
+        "headerUrl": "/images/header/8.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },{
+        "wxid": "9",
+        "initial": 'z',
+        "headerUrl": "/images/header/9.png",
+        "nickname": "甄姬",
+        "sex": 0,
+        "remark": "甄姬",
+        "signature": "仿佛兮若轻云之蔽月",
+        "telphone": 18896586152,
+        "album": [{
+            imgSrc: "/images/album/guanyu/guanyu01.jpeg",
+            date: 182625262
+        }],
+        "area": ["魏", "荆州", "中山"],
+        "from": "通过手机号码添加",
+        "tag": "蜀",
+        "desc": {
+            "title": "",
+            "picUrl": ""
+        }
+    },{
+        "wxid": "10",
+        "initial": 'z',
+        "headerUrl": "/images/header/10.png",
         "nickname": "甄姬",
         "sex": 0,
         "remark": "甄姬",

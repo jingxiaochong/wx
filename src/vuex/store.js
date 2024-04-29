@@ -31,19 +31,9 @@ const state = {
                 "read": true, //true；已读 false：未读
                 "newMsgCount": 1,
                 "quiet": false, // true：消息免打扰 false：提示此好友/群的新消息
-                "msg": [{ //对话框的聊天记录 新消息 push 进
-                    "text": "长按这些白色框消息，唤醒消息操作菜单，长按这些白色框消息，唤醒消息操作菜单",
-                    "date": 1488117964495,
-                    "name": "",
-                    "headerUrl": "/images/header/header01.png"
-                }, {
-                    "text": '点击空白处，操作菜单消失',
-                    "date": 1488117964495,
-                    "name": "",
-                    "headerUrl": "/images/header/header01.png"
-                }, {
+                "msg": [{
                     "text": '如何了',
-                    "date": 1488117964495,
+                    "date": 148811,
                     "name": "",
                     "headerUrl": "/images/header/header01.png"
                 },],
@@ -52,30 +42,20 @@ const state = {
             {
                 "mid": 2,
                 "type": "group",
-                "group_name": "取号的基本原理",
+                "group_name": "基本原理",
                 "group_qrCode": "",
                 "read": false,
                 "newMsgCount": 1,
                 "quiet": true,
-                "msg": [{
-                        "text": "长按消息，唤醒消息操作菜单",
-                        "date": 1488117964495,
-                        "name": "夜华",
-                        "headerUrl": "/images/header/yehua.jpg"
-                    }, {
-                        "text": '点击空白处，操作菜单消失',
-                        "date": 1488117964495,
-                        "name": "阿荡",
-                        "headerUrl": "/images/header/header01.png"
-                    },
+                "msg": [
                     {
                         "text": '我试一试',
                         "date": 1488117964495,
-                        "name": "天青",
+                        "name": "Meg",
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+                "user": [ contact.getUserInfo('1')]
             },
             {
                 "mid": 3,
@@ -91,7 +71,7 @@ const state = {
                     "name": "驴大爷",
                     "headerUrl": "/images/header/zhugeliang.jpg"
                 }],
-                "user": [contact.getUserInfo('wxid_zhenji'), contact.getUserInfo('wxid_zhugeliang'), contact.getUserInfo('wxid_zhaohd')]
+                "user": [contact.getUserInfo('2')]
             },
             {
                 "mid": 2,
@@ -103,13 +83,13 @@ const state = {
                 "quiet": true,
                 "msg": [
                     {
-                        "text": '我试一试',
+                        "text": '这个好',
                         "date": 1488117964495,
-                        "name": "天青",
+                        "name": "TreeNewBee",
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhenji'), contact.getUserInfo('wxid_zhugeliang'), contact.getUserInfo('wxid_zhaohd')]
+                "user": [contact.getUserInfo('3')]
             },            {
                 "mid": 2,
                 "type": "group",
@@ -126,7 +106,7 @@ const state = {
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+                "user": [contact.getUserInfo('4')]
             },            {
                 "mid": 2,
                 "type": "group",
@@ -137,13 +117,13 @@ const state = {
                 "quiet": true,
                 "msg": [
                     {
-                        "text": '我试一试',
+                        "text": '我现在体重不到150',
                         "date": 1488117964495,
-                        "name": "天青",
+                        "name": "探索未知",
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+                "user": [contact.getUserInfo('5')]
             },            {
                 "mid": 2,
                 "type": "group",
@@ -160,7 +140,7 @@ const state = {
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+                "user": [contact.getUserInfo('6')]
             },            {
                 "mid": 2,
                 "type": "group",
@@ -177,11 +157,11 @@ const state = {
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+                "user": [contact.getUserInfo('7')]
             },            {
                 "mid": 2,
                 "type": "group",
-                "group_name": "折叠的群聊",
+                "group_name": "【F213】像素蛋糕会员群",
                 "group_qrCode": "",
                 "read": false,
                 "newMsgCount": 1,
@@ -194,11 +174,11 @@ const state = {
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+                "user": [contact.getUserInfo('8'), contact.getUserInfo('wxid_yehua')]
             },            {
                 "mid": 2,
                 "type": "group",
-                "group_name": "文件传输助手",
+                "group_name": "相机【camera】北京风光人像摄影交流群",
                 "group_qrCode": "",
                 "read": false,
                 "newMsgCount": 1,
@@ -211,7 +191,7 @@ const state = {
                         "headerUrl": "/images/header/yehua.jpg"
                     }
                 ],
-                "user": [contact.getUserInfo('wxid_zhaohd'), contact.getUserInfo('wxid_yehua')]
+                "user": [contact.getUserInfo('9'), contact.getUserInfo('wxid_yehua')]
             },            {
                 "mid": 2,
                 "type": "group",
