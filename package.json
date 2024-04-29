@@ -43,8 +43,14 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "vue/no-unused-components": "off", 
-      "no-unused-vars":"off" 
+      "generator-star-spacing": "off",
+      "no-debugger": "off",
+      "no-tabs": "off",
+      "no-unused-vars": "off",
+      "no-console": "off",
+      "no-irregular-whitespace": "off",
+      "vue/no-unused-components": "off",
+      "no-unreachable": "off"
     }
   },
   "browserslist": [
