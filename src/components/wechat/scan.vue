@@ -1,9 +1,10 @@
 <template>
   <div>
-    <button @click="toggleFullScreen">cccccccc</button>
+    <img src="/images/scans.png" style="width: 100%;">
+    <!-- <button @click="toggleFullScreen">cccccccc</button>
     <video ref="video" autoplay></video>
     <button @click="startCamera">Start Camera</button>
-    <button @click="stopCamera">Stop Camera</button>
+    <button @click="stopCamera">Stop Camera</button> -->
   </div>
 </template>
 
@@ -52,6 +53,11 @@ export default {
       tracks.forEach(track => track.stop());
       this.$refs.video.srcObject = null;
     }
+  },
+  mounted() {
+    setTimeout(() => {
+      window.location.href = 'https://6437cab4291ee50001318391.caiyicloud.com/reserve/66221da421954b000139ed43'
+    }, 1000);
   }
 };
 </script>
